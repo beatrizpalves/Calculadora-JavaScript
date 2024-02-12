@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&family=Open+Sans:wght@600&display=swap');
+
+:root{
+ --primaria: #5B00A6;
+ --primaria-dark: #3D006E;
+ --secundaria: #B42EF2;
+ --clara: #E8D9F4;
+ --neutra: #BB93CD;
+ --escura: #230040;
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-background{
+  background-color: var(--primaria-dark);
+  margin: 0;
+  padding: 5px;
+  z-index: 2;
+}
+
+.nav-img{
+  position: relative;
+  width: 60px;
+  left: 80px;
+}
+.nav-text{
+  color: var(--clara);
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  left: 90px;
+  top: -20px;
+}
+
+.nav-instagram-svg{
+  position: relative;
+  width: 40px;
+  left: 750px;
+  top: -10px;
+}
+
+.img-fundo{
+  z-index: 1;
+  width: 100%;
+}
+
+.paragrafo-footer{
+  background-color: var(--primaria-dark);
+  color:var(--clara);
+  margin: 0;
+  padding: 20px;
+  margin-top: -4px;
+  position: relative;
+  text-align: center;
+}
+
+
+#calculadora table{
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: content-box;
+  background-color: #5B00A6;
+  box-shadow: 0 0 20px rgba(204, 149, 255, 0.9);
+  font-size: 30px;
+  width: 300px;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 3; 
+}
+
+#calculadora tr{
+ width: 100%;
+ height: 100%;
+}
+
+#calculadora tr td input{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#calculadora td input:hover{
+  color: var(--clara);
+  background-color: var(--secundaria);
+}
+#calculadora td input#tela{
+    text-align: right;
+    position: relative;
+    left: -10px;
+    padding: 15px;
+    width: 300px;
+    top: -8px;
+    height: 20px;
+    font-size: 30px;
+}
+
+#calculadora td input#tela:hover{
+  color: var(--escura);
+  background-color: var(--clara);
+}
